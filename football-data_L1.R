@@ -83,7 +83,7 @@ l1_0517 %>%
   scale_y_continuous(labels = scales::percent, name = "Taux de conversion") +
   xlab("Tirs pour") +
   labs(title = "Volume de tirs tentés et Taux de conversion",
-       subtitle = "Ligue 1 - Saisons 2015/2016 à 2016/2017",
+       subtitle = "Ligue 1 - Saisons 2005/2006 à 2016/2017",
        caption = "Source : football-data.co.uk - @OMalytics") +
   theme(plot.title = element_text(face = "bold"))
 ggsave("vol_tdc.png",width=29,height=21,units=c("cm"),dpi=1000)
