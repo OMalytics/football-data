@@ -73,6 +73,7 @@ l1_0517 <- tmp3 %>%
   arrange(season, desc(pts), desc(diff_but))
 
 
+
 #Exemple de visuel, on appréciera le record de tirs tentés en une saison par l'équipe d'Eric Gerets
 l1_0517 %>%
   ggplot(aes(x = tir_p, y = but_p / tir_p, label = paste0(team," ",season))) +
